@@ -33,7 +33,7 @@
          * Here is the base case (ending condition): value == 1.
          * This lets our recursion know when to stop.*/
         
-         if(value == 1) {
+        if(value == 1) {
             return 1;
         }
         else{
@@ -69,9 +69,16 @@
      * i.e. n==1 denotes that we should compute the 1st fibonacci number.
      * @return The value of the nth fibonacci number.
      */
+    
     public int fibonacci(int n)
     {
-        //TODO
+        if(n == 1 || n == 0){
+            return 1;
+        }
+        else {           
+            return fibonnaci(n - 1) + fibonnaci(n - 2);
+        }
+    
     }
 
     

@@ -126,7 +126,7 @@
     
         public void add(Tree child)
         {
-    	   //TODO
+    	   this.add(child);
         }
     }
     

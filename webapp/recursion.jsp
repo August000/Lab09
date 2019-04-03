@@ -121,7 +121,7 @@
     
         public ArrayList<Tree> getChildren()
         {
-            //TODO
+             return this.children;
         }
     
         public void add(Tree child)

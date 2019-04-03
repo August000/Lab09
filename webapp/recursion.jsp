@@ -116,7 +116,7 @@
     
         public int getValue()
         {
-    	    //TODO
+    	    return this.value;
         }
     
         public ArrayList<Tree> getChildren()

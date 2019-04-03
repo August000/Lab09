@@ -76,7 +76,7 @@
             return 1;
         }
         else {           
-            return fibonnaci(n - 1) + fibonnaci(n - 2);
+            return fibonacci(n - 1) + fibonacci(n - 2);
         }
     
     }
@@ -111,7 +111,7 @@
     
         public Tree(int value)
         {
-    	    //TODO
+           Tree root = new Tree(value);
         }
     
         public int getValue()
@@ -121,12 +121,12 @@
     
         public ArrayList<Tree> getChildren()
         {
-    	    //TODO
+            //TODO
         }
     
         public void add(Tree child)
         {
-    	    //TODO
+    	   //TODO
         }
     }
     
@@ -158,12 +158,13 @@
      */
     public int nnaryTreeSize(int branchingFactor, int height)
     {
-        if (height == 1) 
+       if (height == 1) 
         {
     	    //TODO
         }
         
     	//TODO
+    
     }
 
     /** **********************************************************************
